@@ -8,8 +8,35 @@
 </head>
 
 <body>
-    <h1 id="h1" class="content">НАЖМИ НА МЕНЯ ЧТОБЫ ВВЕСТИ ФРАЗУ</h1>
-    <h2 id="h2" class="content"></h2>
+    <div class="select__task">
+        <h1 class="select__title">Выбери задание:</h1>
+        <div class="select__button-container">
+            <button id="button-call-row" class="select__button">#1 Строка</button>
+            <button id="button-call-num" class="select__button">#2 Номер</button>
+        </div>
+    </div>
+    <div id="row" class="hide">
+        <h2 id="row-title" class="content">НАЖМИ НА МЕНЯ ЧТОБЫ ВВЕСТИ ФРАЗУ</h2>
+        <h3 id="row-content" class="content hide"></h3>
+        <button id="restart" class="select__button">Вернуться в начало</button>
+    </div>
+    <div id="num" class="hide">
+        <h2 id="num-title" class="content">НАЖМИ НА МЕНЯ ЧТОБЫ ВВЕСТИ НОМЕР</h2>
+        <h3 id="num-content" class="content hide"></h3>
+        <button id="restart" class="select__button">Вернуться в начало</button>
+    </div>
+    <script src="./js/const.js"></script>
+    <script src="./js/selectContentShow.js"></script>
+    <script src="./js/num/showContentNum.js"></script>
+    <script src="./js/num/formattedPhone.js"></script>
+    <script src="./js/num/resetNumContent.js"></script>
+    <script src="./js/num/getNumber.js"></script>
+    <script src="./js/num/numTask.js"></script>
+    <script src="./js/row/showResoultRow.js"></script>
+    <script src="./js/row/getRow.js"></script>
+    <script src="./js/row/takePhrase.js"></script>
+    <script src="./js/row/resetContentRow.js"></script>
+    <script src="./js/row/rowTask.js"></script>
     <script src="./main.js"></script>
 </body>
 

@@ -1,3 +1,9 @@
-const titlePage = document.querySelector('h1');
+buttonRow.addEventListener("click", rowTask);
 
-titlePage.addEventListener('click', () => alert('KEK'));
+document
+  .querySelectorAll("#restart")
+  .forEach((el) =>
+    el.addEventListener("click", () => window.location.reload())
+  );
+
+buttonNum.addEventListener("click", numTask);
